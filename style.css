@@ -1,0 +1,23 @@
+body {margin: 0;font-family: system-ui;background-color: #fff;color:#424242}
+nav {padding: 15px;width: 50%;float: right;}
+nav a {color:#424242;font-size: 12px;text-decoration: none;margin: 0 5px;text-transform: uppercase; opacity: .5;letter-spacing: 1px;}
+nav a:hover{color:#ee3b16}
+nav a:active{color: #ee3b16;}
+.header {margin: 0 auto;text-align: center;width: 100%;background-color: #fff;position: fixed;z-index: 1;padding: 15px;}
+.nav-con {position: relative;}
+.logo {display: inline-block;width: 10%;height: auto;float: left;margin-left: 30px;padding: 10px;}
+.logo img {width: auto;}
+.hdr-img {position: relative;background-image: url(./hdr-img.jpg);height: 620px;background-size: 100%;float: left;background-position: 0 0;
+width: 100%;background-repeat: no-repeat;background-color: white;overflow: hidden;}
+.content{position: absolute;top:240px;left: 400px;width: 40%;text-align: center;} 
+button{border: 1px solid white;margin: 0 auto;padding: 20px 30px;background-color: transparent;color: white;}
+button:hover{background-color:rgba(255, 255, 255, .10);border:1px solid white;color: white;}
+.hdr-img a {color: white;padding: 20px 30px;text-decoration: none;letter-spacing: 2px;}
+.hdr-img a:hover{opacity: .5;}
+.hdr-img p{width: 100%;text-align: center;color: white;font-size: 64px;font-weight: 100;letter-spacing: 5px;margin: 20px auto;}
+.txt-box{text-align: center;width: 33%; display: inline-block;}
+.txt-box h3{font-weight: normal;}
+.body-content{margin: 20px auto;float: left;}
+.body-content h1{text-align: center;font-weight: normal;margin: 20px auto 0;}
+.body-content p{opacity: .75;}
+.body-content hr{width: 5%;background-color: #424242;height: 2px;margin: 10px auto 20px;}
